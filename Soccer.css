@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    color: #333;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Form</h1>
+        <form action="Soccer.php" method="post">
+            <label for="firstplayer">firstplayer</label>
+            <input type="text" id="firstplayer" name="firstplayer" required/>
+            <br>
+            <label for="secondplayer">secondplayer</label>
+            <input type="text" name="secondplayer" id="secondplayer"required/>
+            <br>
+            <label for="position">position</label>
+            <input type="text" name="position" id="position"required/>
+            <br>
+            <button type="submit"name="btntest" id="btn1">Send</button>
+        </form>
+    </body>
+    <style>
+        div.Top_website{
+background-color: powderblue;
+font-size: 50px;
+background-image: url("images.png");
+background-repeat: no-repeat;
+background-size: 500px;
+background-position: right top;
+}
+
+div.hos {
+background-color: powderblue;
+font-size: 20px;
+background-image: url(227482.jpg);
+background-repeat: no-repeat;
+background-size: 1300px;
+background-position: right top;
+}
+div.Awad{
+background-color: powderblue;
+font-size: 20px;
+background-image: url(_129899636_microsoftteams-image-16.png);
+background-repeat: no-repeat;
+background-size: 1500px;
+background-position: right top;
+}
+body{
+background-color: powderblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+table {
+width: 100px;
+border-spacing: 0px;
+}
+table td{
+padding: 15px;
+background-color: #eee;
+border: 1px solid #e2e2e2;
+}
+table thead td{
+background-color: #f44336;
+color: #fff;
+font-weight: bold;
+text-align: center;
+border-color: #f35246;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: powderblue;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.team-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.player-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.player-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.player-position {
+    color: #666;
+}
+.moha {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}

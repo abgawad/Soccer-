@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width:initial-scale=1.0">
+
+        <style>
+            body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    color: #333;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Form</h1>
+        <form action="Soccer.php" method="post">
+            <label for="firstplayer">firstplayer</label>
+            <input type="text" id="firstplayer" name="firstplayer" required/>
+            <br>
+            <label for="secondplayer">secondplayer</label>
+            <input type="text" name="secondplayer" id="secondplayer"required/>
+            <br>
+            <label for="position">position</label>
+            <input type="text" name="position" id="position"required/>
+            <br>
+            <button type="submit"name="btntest" id="btn1">Send</button>
+        </form>
+    </body>
+    <style>
+        div.Top_website{
+background-color: powderblue;
+font-size: 50px;
+background-image: url("images.png");
+background-repeat: no-repeat;
+background-size: 500px;
+background-position: right top;
+}
+
+div.hos {
+background-color: powderblue;
+font-size: 20px;
+background-image: url(227482.jpg);
+background-repeat: no-repeat;
+background-size: 1300px;
+background-position: right top;
+}
+div.Awad{
+background-color: powderblue;
+font-size: 20px;
+background-image: url(_129899636_microsoftteams-image-16.png);
+background-repeat: no-repeat;
+background-size: 1500px;
+background-position: right top;
+}
+body{
+background-color: powderblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+table {
+width: 100px;
+border-spacing: 0px;
+}
+table td{
+padding: 15px;
+background-color: #eee;
+border: 1px solid #e2e2e2;
+}
+table thead td{
+background-color: #f44336;
+color: #fff;
+font-weight: bold;
+text-align: center;
+border-color: #f35246;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: powderblue;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.team-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.player-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.player-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.player-position {
+    color: #666;
+}
+.moha {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+     
+    </style>
+    <script src="Soccer.js"></script>
+</head>
+<body>
+    <div class="Top_website">
+        <h1>Primer League</h1>
+
+        <form action="" method="get">
+            <div>
+                <label>Username:</label>
+                <input type="text" required placeholder="username" name="user" size="75px">
+            </div>
+                <br>
+            <div>    
+                <label>password:</label>
+                <input type="password" required placeholder="password" name="pass" size="75px">
+            </div>
+                <br>
+            <div>
+                <label>Email:</label>
+                <input type="Email" required placeholder="@gmail.com" name="email" size="75px">
+            </div>
+            <input type="submit" value="save" >
+             <input type="reset" value="Reset" >
+        </form>
+    
+    
+        <div
+        class="header">
+        <div class="moha">
+            <label>Search:</label>
+            <input type="search">
+            </div>
+                <ul>
+                    <li><a href>Home</a></li>
+                    <li><a href>Players</a></li>
+                    <li><a href>News</a></li>
+                    <li><a href>Transfers</a></li>
+                    <li><a href>Trainer</a></li>        
+                </ul>     
+        </div>
+    </div>
+            <form action="" method="get" novalidate target="_blank">
+                <div>
+                        <input list="Club" name="club">
+                        <label for="Club">Choose your favourite club</label>
+                        <datalist id="Club">
+                                <option value="Arsenal">
+                                <option value="Manchester Unitied">
+                                <option value="Manchester City">
+                                <option value="Chelsea">
+                                <option value="Liverpool">
+                                <option value="Loton Town">
+                                <option value="Brentford">
+                                <option value="Fullham Unitied">
+                                <option value="Aston Villa">
+                                <option value="Totenham">
+                                <option value="Braiyton">
+                                <option value="Everton">
+                                <option value="Westham Unitied">
+                                <option value="Notengham Forest">
+                                <option value="Shiffeld Unitied">
+                                <option value="Boronomoth">
+                                <option value="Burnley">
+                                <option value="Newcastle Unitied">    
+                                <option value="Wolverhampton">
+                                <option value="Crystal Palace">       
+                        </datalist>
+                        <Button>save</Button>
+                </div>
+                <hr>
+                <div>
+                        <input list="Top scorers" name="Top scorers">
+                        <label for="Top scorers">Top 10 Scorers</label>
+                        <datalist id="Top scorers">
+                            <div class="p1"><option value="Erling Haland 14" ></option></div> 
+                            <div class="p2"> <option value="Mo Salah 10"></option></div>   
+                            <div class="p3"><option value="Hung Men Son 8"></option></div>
+                            <div class="p4"><option value="Garoud Bowen 8"></option></div>
+                            <div class="p5"><option value="Wilson 7"></option></div>
+                            <div class="p6"><option value="Alexander Ezak 7"></option></div>
+                            <div class="p7"><option value="Watkinz 7"></option></div>
+                            <div class="p8"> <option value="Mbemoo 6"></option></div>
+                            <div class="p9"><option value="Solanke 6"></option></div>
+                            <div class="p10"><option value="Hwang chan 6"></option></div>
+                    </datalist>
+                    <Button>save</Button>
+                </div>
+                <hr>
+                <div class="hos">
+                    <label >select your best club</label>
+                     <div>
+                    <input id="yes1" type="radio" name="Abg" value="Liverpool" checked />
+                    <label for="yes1">Liverpool</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes2" type="radio" name="Abg" value="Manchester City" checked />
+                    <label for="yes2">Manchester City</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes3" type="radio" name="Abg" value="Manchester Unitied" checked />
+                    <label for="yes3">Manchester Unitied</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes133" type="radio" name="Abg" value="Loton Town" checked />
+                    <label for="yes133">Loton Town</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes122" type="radio" name="Abg" value="Everton" checked />
+                    <label for="yes122">Everton</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes166" type="radio" name="Abg" value="Shiffeld Unitied" checked />
+                    <label for="yes166">Shiffeld Unitied</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes155" type="radio" name="Abg" value="Newcastle" checked />
+                    <label for="yes155">Newcastle</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes99" type="radio" name="Abg" value="Burnley" checked />
+                    <label for="yes99">Burnley</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes88" type="radio" name="Abg" value="Crystal Palace" checked />
+                    <label for="yes88">Crystal Palace</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes77" type="radio" name="Abg" value="Notengham Forest" checked />
+                    <label for="yes77">Notengham Forest</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes66" type="radio" name="Abg" value="Fullham" checked />
+                    <label for="yes66">Fullham</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes55" type="radio" name="Abg" value="Chelsea" checked />
+                    <label for="yes55">Chelsea</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes44" type="radio" name="Abg" value="Arsenal" checked />
+                    <label for="yes44">Arsenal</label>
+                    </div>
+                    <br>
+                    <div>
+                    <input id="yes33" type="radio" name="Abg" value="Aston Villa" checked />
+                    <label for="yes33">Aston Villa</label>
+                    </div>
+                     <br>   
+                    <div>
+                    <input id="yes22" type="radio" name="Abg" value="Totenham" checked />
+                    <label for="yes22">Totenham</label>
+                    </div>
+             </div>
+                    <br>
+                    <hr>
+                 <div class="Awad">
+                    <label >Select your best player</label>
+                    <br>
+                    <div>
+                    <input id="yes230" type="checkbox" name="Abg" value="Mo Salah"  />
+                    <label for="yes230">Mo Salah</label>
+                    </div>
+                    <div>
+                    <input id="yes229" type="checkbox" name="Abg" value="Halland"  />
+                    <label for="yes229">Halland</label>
+                    </div>
+                    <div>
+                    <input id="yes228" type="checkbox" name="Abg" value="Son"  />
+                    <label for="yes228">Son</label>
+                    </div>
+                    <div>
+                    <input id="yes227" type="checkbox" name="Abg" value="Martenlli"  />
+                    <label for="yes227">Martenlli</label>
+                    </div>
+                    <div>
+                    <input id="yes226" type="checkbox" name="Abg" value="Bowen"  />
+                    <label for="yes226">Bowen</label>
+                    </div>
+                    <div>
+                    <input id="yes225" type="checkbox" name="Abg" value="Willson"  />
+                    <label for="yes225">Willson</label>
+                    </div>
+                    <div>
+                    <input id="yes224" type="checkbox" name="Abg" value="Mbemooo"  />
+                    <label for="yes224">Mbemooo</label>
+                    </div>
+                    <div>
+                    <input id="yes223" type="checkbox" name="Abg" value="Izak"  />
+                    <label for="yes223">Izak</label>
+                    </div>
+                    <div>
+                    <input id="yes222" type="checkbox" name="Abg" value="Watkinz"  />
+                    <label for="yes222">Watkinz</label>
+                    </div>
+                    <div>
+                    <input id="yes221" type="checkbox" name="Abg" value="Hung chan"  />
+                    <label for="yes221">Hung chan</label>
+                    </div>
+                    <div>
+                    <input id="yes220" type="checkbox" name="Abg" value="Alvarez"  />
+                    <label for="yes220">Alvarez</label>
+                    </div>
+                    <div>
+                    <input id="yes219" type="checkbox" name="Abg" value="Arnold"  />
+                    <label for="yes219">Arnold</label>
+                    </div>
+                    <div>
+                    <input id="yes218" type="checkbox" name="Abg" value="Diaby"  />
+                    <label for="yes218">Diaby</label>
+                    </div>
+                    <div>
+                    <input id="yes217" type="checkbox" name="Abg" value="Red"  />
+                    <label for="yes217">Red</label>
+                    </div>
+                    <div>
+                    <input id="yes216" type="checkbox" name="Abg" value="Willian"  />
+                    <label for="yes216">Willian</label>
+                    </div>
+                    <div>
+                    <input id="yes215" type="checkbox" name="Abg" value="Wissa"  />
+                    <label for="yes215">Wissa</label>
+                    </div>
+                    <div>
+                    <input id="yes214" type="checkbox" name="Abg" value="Romero"  />
+                    <label for="yes214">Romero</label>
+                    </div>
+                    <div>
+                    <input id="yes213" type="checkbox" name="Abg" value="Madisson"  />
+                    <label for="yes213">Madisson</label>
+                    </div>
+                    <div>
+                    <input id="yes212" type="checkbox" name="Abg" value="Nunez"  />
+                    <label for="yes212">Nunez</label>
+                    </div>
+                    <div>
+                    <input id="yes211" type="checkbox" name="Abg" value="Luis Diaz"  />
+                    <label for="yes211">Luis Diaz</label>
+                    </div>
+                    <div>
+                    <input id="yes210" type="checkbox" name="Abg" value="Andersen"  />
+                    <label for="yes210">Andersen</label>
+                    </div>
+                    <div>
+                    <input id="yes209" type="checkbox" name="Abg" value="Olise"  />
+                    <label for="yes209">Olise</label>
+                    </div>
+                    <div>
+                    <input id="yes208" type="checkbox" name="Abg" value="Gernatcho"  />
+                    <label for="yes208">Gernatcho</label>
+                    </div>
+                    <div>
+                    <input id="yes207" type="checkbox" name="Abg" value="Rashford"  />
+                    <label for="yes207">Rashford</label>
+                    </div>
+                    <div>
+                    <input id="yes206" type="checkbox" name="Abg" value="Sterling"  />
+                    <label for="yes206">Sterling</label>
+                    </div>
+                    <div>
+                    <input id="yes205" type="checkbox" name="Abg" value="Enzo Fernandez"  />
+                    <label for="yes205">Enzo Fernandez</label>
+                    </div>
+                    <div>
+                    <input id="yes204" type="checkbox" name="Abg" value="Trossard"  />
+                    <label for="yes204">Trossard</label>
+                    </div>
+                    <div>
+                    <input id="yes203" type="checkbox" name="Abg" value="Saka"  />
+                    <label for="yes203">Saka</label>
+                    </div>
+                    <div>
+                    <input id="yes202" type="checkbox" name="Abg" value="Rodri"  />
+                    <label for="yes202">Rodri</label>
+                    </div>
+                    <div>
+                    <input id="yes201" type="checkbox" name="Abg" value="Foden"  />
+                    <label for="yes201">Foden</label>
+                    </div>
+               </div>
+        </form>
+        <hr>
+        <div class="Nav">
+    <div class="moha">
+    <label>URL</label>
+    <input type="url">
+    <Button>Enter</Button>
+    </div>
+            <ul>
+            <li>Link<a href="">https://www.youtube.com/watch?v=3FGgWWiRw7I&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>	
+            <li>Link<a href="">https://www.youtube.com/watch?v=f-k6p_XYXzA&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=XiS7wEO-YQ4&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=_ubsZQBlwXQ&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=O0fTPAfTOB8&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=R0JJ1PG8Uas&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=ENFeYjyhRC4&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=dHAjsv8Qj44&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=4Ru8QYciRfg&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=t8UGLaP65LY&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=TSi2fALqiMY&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=l6k0wYtWfRM&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=qdCorVCy6AQ&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=3p61p1qvwc4&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=uV02LyA5i_s&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=XetFbptSd8Q&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=B6JOe2JiFkE&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            <li>Link<a href="">https://www.youtube.com/watch?v=WfWKflSDj44&pp=ygU32YXZhNiu2LUg2YXYqNin2LHZitin2Kog2KfZhNiv2YjYsdmKINin2YTYp9mG2KzZhNmK2LLZig%3D%3D</a></li>
+            </ul>
+        </div>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <td>Team1</td>
+                <td>Vs</td>
+                <td>Team2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Manchester Unitied</td>
+                <td>10:30</td>
+                <td>Newcastle Unitied</td>
+            </tr>
+            <tr>
+                <td>Arsenal</td>
+                <td>5:00</td>
+                <td>Wolverhampton</td>
+            </tr>
+            <tr>
+                <td>Liverpool</td>
+                <td>4:00</td>
+                <td>Fullham</td>
+            </tr>
+            <tr>
+                <td>Chelsea</td>
+                <td>4:00</td>
+                <td>Braiyton</td>
+            </tr>
+            <tr>
+                <td>Aston Villa</td>
+                <td>4:00</td>
+                <td>Boronomoth</td>
+            </tr>
+            <tr>
+                <td>Westham Unitied</td>
+                <td>4:00</td>
+                <td>Crystal Palace</td>
+            </tr>
+            <tr>
+                <td>Manchester City</td>
+                <td>6:30</td>
+                <td>Totenham</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="Content">
+        <img src="_129899636_microsoftteams-image-16.png" alt=hidth="600" height="400">
+        <img src="7dc024b82fa1d19a68bb853ff2ec08aa.jpg" alt=hidth="600" height="400">
+        <img src="99b3e4e0-3a7d-11ed-88a1-5b8fd5ef23af.jpg" alt=hidth="600" height="400">
+        <br>
+        <img src="sport-20190729-122847-033226.jpg" alt=hidth="600" height="400">
+        <img src="223105.jpg" alt=hidth="600" height="400">
+        <img src="epa_soccer_2022-04_2022-04-03_2022-04-03-09868053_epa.jpg" alt=hidth="600" height="400">
+        <br>
+        <img src="FqZA_E5XsAEeLEj.jfif" alt=hidth="600" height="400">
+        <img src="image.jpg" alt=hidth="600" height="400">
+        <br>
+        <img src="4798cafaf8152baf1f8ab8442eda1792.jpg" alt=hidth="600" height="400">
+        <img src="ee0df86ef19e26dcc857cd0d89711596.jpg" alt=hidth="600" height="400">
+        <img src="download (1).png" alt=hidth="600" height="400">
+        <hr>
+        <video controls width="400" height="600" autoplay loop muted poster="PicsArt_09-28-03.23.47.jpg">
+            <source src="ملخص مباراة تشلسي ومانشستر سيتي (4-4)  الجولة 12 - الدوري الإنجليزي الممتاز.mp4"type="video/mp4">
+        </video>
+            <video controls width="400" height="600" autoplay loop muted poster="PicsArt_09-28-03.23.47.jpg">
+                <source src="ملخص مباراة آرسنال وتوتنهام (2-2)  الجولة 6 - الدوري الإنجليزي الممتاز.mp4"type="video/mp4">
+            </video>
+            <video controls width="400" height="600" autoplay loop muted poster="PicsArt_09-28-03.23.47.jpg">
+                <source src="ملخص مباراة توتنهام وتشلسي (1-4)  الجولة 11 - الدوري الإنجليزي.mp4"type="video/mp4">
+            </video>
+            <video controls width="400" height="600" autoplay loop muted poster="PicsArt_09-28-03.23.47.jpg">
+                <source src="ملخص مباراة ليفربول ووست هام (3-1)  الجولة 6 - الدوري الإنجليزي الممتاز.mp4"type="video/mp4">
+            </video>
+             <video controls width="400" height="600" autoplay loop muted poster="PicsArt_09-28-03.23.47.jpg">
+                <source src="ملخص مباراة نيوكاسل وتشيلسي (4-1)  الجولة 13 - الدوري الإنجليزي الممتاز.mp4"type="video/mp4">
+             </video>
+    </div>
+</body>
+<body>
+
+    <header>
+        <h1>liverpool fc</h1>
+    </header>
+
+    <section>
+        <img class="team-logo" src="https://logowik.com/content/uploads/images/526_liverpoolfc.jpg" alt="team-logo">
+
+        <h2>About Us</h2>
+        <p>Welcome to the official website of Liverpool FC. We are a passionate soccer team dedicated to achieving greatness on and off the field.</p>
+
+        <h2>Meet Our Players</h2>
+        <div class="player-card">
+            <p class="player-name">Allison Becker</p>
+            <p class="player-position">Goal keaper</p>
+        </div>
+        <div class="player-card">
+            <p class="player-name">Arnold</p>
+            <p class="player-position">back right</p>
+        </div>
+        <div class="player-card">
+            <p class="player-name">Matip</p>
+            <p class="player-position">defender</p>
+        </div>
+        <div class="player-card">
+            <p class="player-name">Van Daick</p>
+            <p class="player-position">defender</p>
+        </div>
+        <div class="player-card">
+            <p class="player-name">Robertson</p>
+            <p class="player-position">back left</p>
+        </div>
+        <div class="player-card">
+            <p class="player-name">Mac Alister</p>
+            <p class="player-position">DMF</p>
+        </div>
+        <div class="player-card">
+            <p class="player-name"> Szoboszlai</p>
+            <p class="player-position">CMF</p>
+        </div>
+        <div class="player-card">
+            <p class="player-name">Jakbo</p>
+            <p class="player-position">AMF</p>
+        </div>
+
+        <div class="player-card">
+            <p class="player-name">Luis Diaz</p>
+            <p class="player-position">Wing left</p>
+        </div>
+
+        <div class="player-card">
+            <p class="player-name">Nunuz</p>
+            <p class="player-position">Cf</p>
+        </div>
+        <div class="player-card">
+            <p class="player-name">Mo Salah</p>
+            <p class="player-position">Wing right</p>
+        </div>
+                
+    </section>
+    </section>
+     </body>
+</html>
